@@ -321,8 +321,11 @@ const Index = () => {
                 </div>
                 <div className="text-gray-300">
                   <span className="text-sm text-gray-400">Phone:</span>
-                  <a href="tel:+60123456789" className="block text-white hover:text-primary transition-colors">
-                    +60 12 345 6789
+                  <a href="tel:+60122448099" className="block text-white hover:text-primary transition-colors">
+                    +60 12 244 8099 (Malaysia)
+                  </a>
+                  <a href="tel:+61421640977" className="block text-white hover:text-primary transition-colors">
+                    +61 421 640 977 (Australia)
                   </a>
                 </div>
               </div>
