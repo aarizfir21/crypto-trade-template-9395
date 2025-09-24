@@ -8,6 +8,7 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import ServicesCarousel from "@/components/ServicesCarousel";
 import teamPhoto from "@/assets/team-photo.jpg";
 import eatclubLogo from "@/assets/eatclub-logo.png";
+import thermomixLogo from "@/assets/thermomix-logo.png";
 
 const Index = () => {
   return (
@@ -151,8 +152,8 @@ const Index = () => {
             className="glass glass-hover rounded-xl p-8"
           >
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-[#22c55e] rounded-lg flex items-center justify-center">
-                <Zap className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden bg-white p-1">
+                <img src={thermomixLogo} alt="Thermomix" className="w-full h-full object-contain" />
               </div>
               <h3 className="text-xl font-medium">Thermomix Project</h3>
             </div>
