@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Command, Menu } from "lucide-react";
+import { Bot, Menu } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
@@ -17,32 +17,18 @@ const Navigation = () => {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
-    if (sectionId === 'testimonials') {
-      const testimonialSection = document.querySelector('.animate-marquee');
-      if (testimonialSection) {
-        const yOffset = -100; // Offset to account for the fixed header
-        const y = testimonialSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-        window.scrollTo({ top: y, behavior: 'smooth' });
-      }
-    } else if (sectionId === 'cta') {
-      const ctaSection = document.querySelector('.button-gradient');
-      if (ctaSection) {
-        const yOffset = -100;
-        const y = ctaSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-        window.scrollTo({ top: y, behavior: 'smooth' });
-      }
-    } else {
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   const navItems = [
-    { name: "Features", href: "#features", onClick: () => scrollToSection('features') },
-    { name: "Prices", href: "#pricing", onClick: () => scrollToSection('pricing') },
-    { name: "Testimonials", href: "#testimonials", onClick: () => scrollToSection('testimonials') },
+    { name: "About Us", href: "#about", onClick: () => scrollToSection('about') },
+    { name: "Case Studies", href: "#case-studies", onClick: () => scrollToSection('case-studies') },
+    { name: "Services", href: "#services", onClick: () => scrollToSection('services') },
+    { name: "How It Works", href: "#how-it-works", onClick: () => scrollToSection('how-it-works') },
+    { name: "Contact Us", href: "#contact", onClick: () => scrollToSection('contact') },
   ];
 
   return (
@@ -56,12 +42,12 @@ const Navigation = () => {
       <div className="mx-auto h-full px-6">
         <nav className="flex items-center justify-between h-full">
           <div className="flex items-center gap-2">
-            <Command className="w-5 h-5 text-primary" />
-            <span className="font-bold text-base">CryptoTrade</span>
+            <Bot className="w-5 h-5 text-primary" />
+            <span className="font-bold text-base">Arizyen</span>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -78,16 +64,17 @@ const Navigation = () => {
               </a>
             ))}
             <Button 
-              onClick={() => scrollToSection('cta')}
               size="sm"
               className="button-gradient"
             >
-              Start Trading
+              <a href="https://cal.com/aariz21" target="_blank" rel="noopener noreferrer">
+                Book a Call
+              </a>
             </Button>
           </div>
 
           {/* Mobile Navigation */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="outline" size="icon" className="glass">
@@ -113,13 +100,11 @@ const Navigation = () => {
                     </a>
                   ))}
                   <Button 
-                    onClick={() => {
-                      setIsMobileMenuOpen(false);
-                      scrollToSection('cta');
-                    }}
                     className="button-gradient mt-4"
                   >
-                    Start Trading
+                    <a href="https://cal.com/aariz21" target="_blank" rel="noopener noreferrer">
+                      Book a Call
+                    </a>
                   </Button>
                 </div>
               </SheetContent>
