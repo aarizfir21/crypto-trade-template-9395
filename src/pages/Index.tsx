@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import ServicesCarousel from "@/components/ServicesCarousel";
 
 const Index = () => {
   return (
@@ -220,44 +221,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            {
-              icon: Zap,
-              title: "Workflow Automation",
-              description: "Streamline repetitive tasks and optimize business processes"
-            },
-            {
-              icon: MessageSquare,
-              title: "AI Chatbots & Integrations",
-              description: "Intelligent customer service and automated interactions"
-            },
-            {
-              icon: BarChart3,
-              title: "Data & Reporting Dashboards",
-              description: "Real-time insights and automated reporting systems"
-            },
-            {
-              icon: Database,
-              title: "Marketing and CRM Automation",
-              description: "Automated lead management and customer engagement"
-            }
-          ].map((service, index) => (
-            <motion.div
-              key={service.title}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1, duration: 0.5 }}
-              className="glass glass-hover rounded-xl p-6 text-center"
-            >
-              <div className="w-12 h-12 bg-gradient-to-br from-primary to-[#22c55e] rounded-lg flex items-center justify-center mx-auto mb-4">
-                <service.icon className="w-6 h-6 text-white" />
-              </div>
-              <h3 className="text-lg font-medium mb-3">{service.title}</h3>
-              <p className="text-sm text-gray-400">{service.description}</p>
-            </motion.div>
-          ))}
-        </div>
+        <ServicesCarousel />
       </section>
 
       {/* How It Works Section */}
