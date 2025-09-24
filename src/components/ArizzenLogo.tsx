@@ -6,7 +6,7 @@ const ArizzenLogo = () => {
       <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent tracking-wide">
         ARIZYEN
       </div>
-      <div className="flex items-center gap-1 -mt-px">
+      <div className="flex items-center gap-1 -mt-0.5">
         <div className="h-0.5 w-8 bg-gradient-to-r from-blue-500 to-blue-300"></div>
         <Settings className="w-3 h-3 text-blue-400" />
         <div className="h-0.5 w-8 bg-gradient-to-l from-blue-500 to-blue-300"></div>
