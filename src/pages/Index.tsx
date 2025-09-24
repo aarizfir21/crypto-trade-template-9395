@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import ServicesCarousel from "@/components/ServicesCarousel";
+import teamPhoto from "@/assets/team-photo.jpg";
 
 const Index = () => {
   return (
@@ -105,13 +106,11 @@ const Index = () => {
             className="relative"
           >
             <div className="glass rounded-xl overflow-hidden">
-              <div className="aspect-video bg-gradient-to-br from-primary/20 to-[#22c55e]/20 flex items-center justify-center">
-                <div className="text-center">
-                  <Users className="w-16 h-16 mx-auto mb-4 text-primary" />
-                  <p className="text-lg text-gray-300">Team Photo Placeholder</p>
-                  <p className="text-sm text-gray-400">Professional team photo will be added here</p>
-                </div>
-              </div>
+              <img 
+                src={teamPhoto} 
+                alt="ARIZYEN Team" 
+                className="w-full h-full object-cover aspect-video"
+              />
             </div>
           </motion.div>
         </div>
