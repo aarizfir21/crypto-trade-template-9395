@@ -3,7 +3,7 @@ import { ArrowRight, Bot, Users, Star, CheckCircle, Zap, BarChart3, MessageSquar
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import ContactForm from "@/components/ContactForm";
+
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import ServicesCarousel from "@/components/ServicesCarousel";
 import teamPhoto from "@/assets/team-photo.jpg";
@@ -298,8 +298,35 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="glass glass-hover rounded-xl p-8">
-            <ContactForm />
+          <div className="glass glass-hover rounded-xl p-8 text-center">
+            <div className="max-w-md mx-auto space-y-6">
+              <Button size="lg" className="button-gradient w-full">
+                <a href="https://cal.com/aariz21" target="_blank" rel="noopener noreferrer">
+                  Book a Consultation
+                </a>
+              </Button>
+              
+              <div className="flex items-center justify-center space-x-4">
+                <div className="h-px bg-white/20 flex-1"></div>
+                <span className="text-gray-400 text-sm">or</span>
+                <div className="h-px bg-white/20 flex-1"></div>
+              </div>
+              
+              <div className="space-y-3">
+                <div className="text-gray-300">
+                  <span className="text-sm text-gray-400">Email:</span>
+                  <a href="mailto:aariz@arizyen.com" className="block text-white hover:text-primary transition-colors">
+                    aariz@arizyen.com
+                  </a>
+                </div>
+                <div className="text-gray-300">
+                  <span className="text-sm text-gray-400">Phone:</span>
+                  <a href="tel:+60123456789" className="block text-white hover:text-primary transition-colors">
+                    +60 12 345 6789
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
