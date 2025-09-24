@@ -92,9 +92,13 @@ const Index = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
-              className="text-lg text-gray-400 leading-relaxed"
+              className="text-lg text-gray-400 leading-relaxed text-left"
             >
-              ARIZYEN is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization. We specialize in creating custom solutions that eliminate manual processes and boost productivity.
+              ARIZYEN is an automation agency that transforms how businesses operate through intelligent solutions.<br/>
+              We help companies save time and accelerate growth using AI integrations, workflow automation,<br/>
+              and comprehensive system optimization strategies. Our expertise lies in creating custom solutions<br/>
+              that eliminate repetitive manual processes and significantly boost overall productivity.<br/>
+              Partner with us to unlock your business's full potential through smart automation.
             </motion.p>
           </div>
           
