@@ -35,8 +35,8 @@ const Navigation = () => {
     <header
       className={`fixed top-3.5 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 rounded-full ${
         isScrolled 
-          ? "h-14 bg-[#1B1B1B]/40 backdrop-blur-xl border border-white/10 w-[90%] max-w-2xl" 
-          : "h-18 bg-[#1B1B1B] w-[95%] max-w-3xl"
+          ? "h-14 bg-[#1B1B1B]/40 backdrop-blur-xl border border-white/10 w-[95%] max-w-3xl" 
+          : "h-14 bg-[#1B1B1B] w-[98%] max-w-6xl"
       }`}
     >
       <div className="mx-auto h-full px-6">
