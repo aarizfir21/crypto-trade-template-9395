@@ -17,7 +17,7 @@ const Index = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="relative container px-4 pt-40 pb-20"
+        className="relative container px-4 pt-40 pb-20 text-center"
       >
         {/* Background */}
         <div 
@@ -36,8 +36,8 @@ const Index = () => {
           </span>
         </motion.div>
         
-        <div className="max-w-4xl relative z-10">
-          <h1 className="text-5xl md:text-7xl font-normal mb-4 tracking-tight text-left">
+        <div className="max-w-4xl relative z-10 mx-auto">
+          <h1 className="text-5xl md:text-7xl font-normal mb-4 tracking-tight text-center">
             <span className="text-gray-200">
               <TextGenerateEffect words="We build automation systems" />
             </span>
@@ -51,7 +51,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl text-left"
+            className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl text-center mx-auto"
           >
             Arizyen is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization.
           </motion.p>
@@ -60,7 +60,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="flex flex-col sm:flex-row gap-4 items-start"
+            className="flex flex-col sm:flex-row gap-4 items-center justify-center"
           >
             <Button size="lg" className="button-gradient">
               <a href="https://cal.com/aariz21" target="_blank" rel="noopener noreferrer">
@@ -115,11 +115,11 @@ const Index = () => {
 
       {/* Case Studies Section */}
       <section id="case-studies" className="container px-4 py-24">
-        <div className="max-w-2xl mb-16">
-          <h2 className="text-4xl md:text-5xl font-normal mb-6 tracking-tight text-left">
+        <div className="max-w-2xl mb-16 mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-normal mb-6 tracking-tight">
             Success <span className="text-gradient font-medium">Stories</span>
           </h2>
-          <p className="text-lg md:text-xl text-gray-400 text-left">
+          <p className="text-lg md:text-xl text-gray-400">
             See how we've helped businesses transform their operations and achieve remarkable results.
           </p>
         </div>
@@ -212,11 +212,11 @@ const Index = () => {
 
       {/* Services Section */}
       <section id="services" className="container px-4 py-24">
-        <div className="max-w-2xl mb-16">
-          <h2 className="text-4xl md:text-5xl font-normal mb-6 tracking-tight text-left">
+        <div className="max-w-2xl mb-16 mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-normal mb-6 tracking-tight">
             Our <span className="text-gradient font-medium">Services</span>
           </h2>
-          <p className="text-lg md:text-xl text-gray-400 text-left">
+          <p className="text-lg md:text-xl text-gray-400">
             We offer comprehensive automation solutions tailored to your business needs.
           </p>
         </div>
