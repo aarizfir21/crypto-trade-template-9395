@@ -72,44 +72,48 @@ const Index = () => {
             </Button>
           </motion.div>
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
-          className="relative mx-auto max-w-5xl mt-20"
-        >
-          <div className="glass rounded-xl overflow-hidden">
-            <div className="aspect-video bg-gradient-to-br from-primary/20 to-[#22c55e]/20 flex items-center justify-center">
-              <div className="text-center">
-                <Users className="w-16 h-16 mx-auto mb-4 text-primary" />
-                <p className="text-lg text-gray-300">Team Photo Placeholder</p>
-                <p className="text-sm text-gray-400">Professional team photo will be added here</p>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </motion.section>
 
       {/* About Us Section */}
       <section id="about" className="container px-4 py-24">
-        <div className="max-w-4xl mx-auto text-center">
-          <motion.h2
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left side - About text */}
+          <div>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-4xl md:text-5xl font-normal mb-6"
+            >
+              About <span className="text-gradient font-medium">Arizyen</span>
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1, duration: 0.5 }}
+              className="text-lg text-gray-400 leading-relaxed"
+            >
+              Arizyen is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization. We specialize in creating custom solutions that eliminate manual processes and boost productivity.
+            </motion.p>
+          </div>
+          
+          {/* Right side - Team placeholder */}
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-4xl md:text-5xl font-normal mb-6"
+            transition={{ delay: 0.2, duration: 0.5 }}
+            className="relative"
           >
-            About <span className="text-gradient font-medium">Arizyen</span>
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.5 }}
-            className="text-lg text-gray-400 leading-relaxed"
-          >
-            Arizyen is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization. We specialize in creating custom solutions that eliminate manual processes and boost productivity.
-          </motion.p>
+            <div className="glass rounded-xl overflow-hidden">
+              <div className="aspect-video bg-gradient-to-br from-primary/20 to-[#22c55e]/20 flex items-center justify-center">
+                <div className="text-center">
+                  <Users className="w-16 h-16 mx-auto mb-4 text-primary" />
+                  <p className="text-lg text-gray-300">Team Photo Placeholder</p>
+                  <p className="text-sm text-gray-400">Professional team photo will be added here</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
 
