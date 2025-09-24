@@ -21,7 +21,7 @@ const ServicesCarousel = () => {
     {
       icon: Database,
       title: "Marketing and CRM Automation",
-      description: "Automated lead management and customer engagement"
+      description: "Automated lead generation and customer relation management"
     }
   ];
 
