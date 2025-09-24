@@ -158,24 +158,24 @@ const Index = () => {
               <h3 className="text-xl font-medium">Thermomix Project</h3>
             </div>
             <p className="text-gray-400 mb-6">
-              We helped Thermomix streamline their lead management and customer engagement. Previously, sales consultants relied on manual processes, leading to delays. ARIZYEN built an AI-powered CRM automation that:
+              We helped a Thermomix reseller and online baking instructor scale operations through social media automation, CRM personalization, and WhatsApp campaign outreach.
             </p>
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Routed leads to the correct consultants automatically</span>
+                <span className="text-sm text-gray-300">Revenue scaled from 5,000 MYR/month to 70,000 MYR/month (14x growth)</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Reduced response time from hours to under 5 minutes</span>
+                <span className="text-sm text-gray-300">AI-driven CRM increased repeat sales through personalized customer engagement</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Freed up consultants to focus on customers instead of admin</span>
+                <span className="text-sm text-gray-300">Automated reporting reduced manual tracking from hours to minutes</span>
               </div>
             </div>
             <div className="bg-primary/10 rounded-lg p-4">
-              <p className="text-primary font-medium">Result: 30% faster onboarding and major time savings per consultant</p>
+              <p className="text-primary font-medium">Result: 14x revenue growth and streamlined operations</p>
             </div>
           </motion.div>
 
@@ -193,28 +193,24 @@ const Index = () => {
               <h3 className="text-xl font-medium">EatClub Project</h3>
             </div>
             <p className="text-gray-400 mb-6">
-              EatClub runs guerilla marketing campaigns with many contractors. Their challenge: onboarding, scheduling, and invoicing were all manual and error-prone. ARIZYEN implemented a full automation system that:
+              EatClub's guerilla marketing relied on contractors across Australia. We built systems for onboarding, invoicing, and campaign tracking.
             </p>
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Collected contractor profiles automatically</span>
+                <span className="text-sm text-gray-300">Cut invoice processing time by 80% (2 hours/week → &lt;20 minutes)</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Enabled shift creation and confirmation via chatbot</span>
+                <span className="text-sm text-gray-300">Enabled multi-city rollout: Sydney → Melbourne, Perth, Brisbane</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Generated invoices automatically from confirmed shifts</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Linked campaign ROI metrics to performance and location</span>
+                <span className="text-sm text-gray-300">Location-based tracking revealed high-performing areas, driving 30% more customer signups</span>
               </div>
             </div>
             <div className="bg-primary/10 rounded-lg p-4">
-              <p className="text-primary font-medium">Result: 80% reduction in invoice errors and smoother campaigns</p>
+              <p className="text-primary font-medium">Result: 80% faster processing and multi-city expansion success</p>
             </div>
           </motion.div>
         </div>
