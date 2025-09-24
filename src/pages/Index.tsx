@@ -149,33 +149,38 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="glass glass-hover rounded-xl p-8"
+            className="glass glass-hover rounded-xl p-8 flex flex-col justify-between h-full"
           >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden bg-white p-1">
-                <img src={thermomixLogo} alt="Thermomix" className="w-full h-full object-contain" />
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden bg-white p-1">
+                  <img src={thermomixLogo} alt="Thermomix" className="w-full h-full object-contain" />
+                </div>
+                <h3 className="text-xl font-medium">Thermomix Project</h3>
               </div>
-              <h3 className="text-xl font-medium">Thermomix Project</h3>
+              <p className="text-gray-400 mb-6">
+                We helped a Thermomix reseller and online baking instructor scale operations through social media automation, CRM personalization, and WhatsApp campaign outreach.
+              </p>
             </div>
-            <p className="text-gray-400 mb-6">
-              We helped a Thermomix reseller and online baking instructor scale operations through social media automation, CRM personalization, and WhatsApp campaign outreach.
-            </p>
-            <div className="space-y-3 mb-6">
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Revenue scaled from 5,000 MYR/month to 70,000 MYR/month (14x growth)</span>
+            
+            <div>
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-primary" />
+                  <span className="text-sm text-gray-300">Revenue scaled from 5,000 MYR/month to 70,000 MYR/month (14x growth)</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-primary" />
+                  <span className="text-sm text-gray-300">AI-driven CRM increased repeat sales through personalized customer engagement</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-primary" />
+                  <span className="text-sm text-gray-300">Automated reporting reduced manual tracking from hours to minutes</span>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">AI-driven CRM increased repeat sales through personalized customer engagement</span>
+              <div className="bg-primary/10 rounded-lg p-4">
+                <p className="text-primary font-medium">Result: 14x revenue growth and streamlined operations</p>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Automated reporting reduced manual tracking from hours to minutes</span>
-              </div>
-            </div>
-            <div className="bg-primary/10 rounded-lg p-4">
-              <p className="text-primary font-medium">Result: 14x revenue growth and streamlined operations</p>
             </div>
           </motion.div>
 
@@ -184,33 +189,38 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="glass glass-hover rounded-xl p-8"
+            className="glass glass-hover rounded-xl p-8 flex flex-col justify-between h-full"
           >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
-                <img src={eatclubLogo} alt="EatClub" className="w-full h-full object-cover" />
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
+                  <img src={eatclubLogo} alt="EatClub" className="w-full h-full object-cover" />
+                </div>
+                <h3 className="text-xl font-medium">EatClub Project</h3>
               </div>
-              <h3 className="text-xl font-medium">EatClub Project</h3>
+              <p className="text-gray-400 mb-6">
+                EatClub's guerilla marketing relied on contractors across Australia. We built systems for onboarding, invoicing, and campaign tracking.
+              </p>
             </div>
-            <p className="text-gray-400 mb-6">
-              EatClub's guerilla marketing relied on contractors across Australia. We built systems for onboarding, invoicing, and campaign tracking.
-            </p>
-            <div className="space-y-3 mb-6">
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Cut invoice processing time by 80% (2 hours/week → &lt;20 minutes)</span>
+            
+            <div>
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-primary" />
+                  <span className="text-sm text-gray-300">Cut invoice processing time by 80% (2 hours/week → &lt;20 minutes)</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-primary" />
+                  <span className="text-sm text-gray-300">Enabled multi-city rollout: Sydney → Melbourne, Perth, Brisbane</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-primary" />
+                  <span className="text-sm text-gray-300">Location-based tracking revealed high-performing areas, driving 30% more customer signups</span>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Enabled multi-city rollout: Sydney → Melbourne, Perth, Brisbane</span>
+              <div className="bg-primary/10 rounded-lg p-4">
+                <p className="text-primary font-medium">Result: 80% faster processing and multi-city expansion success</p>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-primary" />
-                <span className="text-sm text-gray-300">Location-based tracking revealed high-performing areas, driving 30% more customer signups</span>
-              </div>
-            </div>
-            <div className="bg-primary/10 rounded-lg p-4">
-              <p className="text-primary font-medium">Result: 80% faster processing and multi-city expansion success</p>
             </div>
           </motion.div>
         </div>
