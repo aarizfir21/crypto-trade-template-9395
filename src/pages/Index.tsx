@@ -53,7 +53,7 @@ const Index = () => {
             transition={{ delay: 0.4 }}
             className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl text-center mx-auto"
           >
-            Arizyen is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization.
+            ARIZYEN is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization.
           </motion.p>
           
           <motion.div
@@ -85,7 +85,7 @@ const Index = () => {
               transition={{ duration: 0.5 }}
               className="text-4xl md:text-5xl font-normal mb-6"
             >
-              About <span className="text-gradient font-medium">Arizyen</span>
+              About <span className="text-gradient font-medium">ARIZYEN</span>
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -93,7 +93,7 @@ const Index = () => {
               transition={{ delay: 0.1, duration: 0.5 }}
               className="text-lg text-gray-400 leading-relaxed"
             >
-              Arizyen is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization. We specialize in creating custom solutions that eliminate manual processes and boost productivity.
+              ARIZYEN is an automation agency that helps businesses save time and grow faster through AI integrations, workflow automation, and system optimization. We specialize in creating custom solutions that eliminate manual processes and boost productivity.
             </motion.p>
           </div>
           
@@ -143,7 +143,7 @@ const Index = () => {
               <h3 className="text-xl font-medium">Thermomix Project</h3>
             </div>
             <p className="text-gray-400 mb-6">
-              We helped Thermomix streamline their lead management and customer engagement. Previously, sales consultants relied on manual processes, leading to delays.
+              We helped Thermomix streamline their lead management and customer engagement. Previously, sales consultants relied on manual processes, leading to delays. ARIZYEN built an AI-powered CRM automation that:
             </p>
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-2">
@@ -178,7 +178,7 @@ const Index = () => {
               <h3 className="text-xl font-medium">EatClub Project</h3>
             </div>
             <p className="text-gray-400 mb-6">
-              EatClub runs guerilla marketing campaigns with many contractors. Their challenge: onboarding, scheduling, and invoicing were all manual and error-prone.
+              EatClub runs guerilla marketing campaigns with many contractors. Their challenge: onboarding, scheduling, and invoicing were all manual and error-prone. ARIZYEN implemented a full automation system that:
             </p>
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-2">
