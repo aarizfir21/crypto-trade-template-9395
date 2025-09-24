@@ -117,6 +117,20 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Services Section */}
+      <section id="services" className="container px-4 py-24">
+        <div className="max-w-2xl mb-16 mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-normal mb-6 tracking-tight">
+            Our <span className="text-gradient font-medium">Services</span>
+          </h2>
+          <p className="text-lg md:text-xl text-gray-400">
+            We offer comprehensive automation solutions tailored to your business needs.
+          </p>
+        </div>
+
+        <ServicesCarousel />
+      </section>
+
       {/* Case Studies Section */}
       <section id="case-studies" className="container px-4 py-24">
         <div className="max-w-2xl mb-16 mx-auto text-center">
@@ -212,20 +226,6 @@ const Index = () => {
             </a>
           </Button>
         </div>
-      </section>
-
-      {/* Services Section */}
-      <section id="services" className="container px-4 py-24">
-        <div className="max-w-2xl mb-16 mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-normal mb-6 tracking-tight">
-            Our <span className="text-gradient font-medium">Services</span>
-          </h2>
-          <p className="text-lg md:text-xl text-gray-400">
-            We offer comprehensive automation solutions tailored to your business needs.
-          </p>
-        </div>
-
-        <ServicesCarousel />
       </section>
 
       {/* How It Works Section */}
